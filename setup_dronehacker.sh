@@ -20,6 +20,6 @@ echo "dronehacker ALL=(ALL:ALL) /usr/sbin/wifite" >> /etc/sudoers.d/dronehacker
 echo "dronehacker ALL=(ALL:ALL) /opt/DroneHacker/dronehacker.py" >> /etc/sudoers.d/dronehacker
 
 #add alias
-echo "alias dronehacker='sudo python3 /opt/DroneHacker/droneHacker.py'" >> /home/dronehacker/.zshrc
+echo "alias dronehacker='python3 /opt/DroneHacker/droneHacker.py'" >> /home/dronehacker/.zshrc
 echo "alias setup='pip install -r /opt/DroneHacker/requirements.txt'" >> /home/dronehacker/.zshrc
 echo "alias fonts='cp /opt/DroneHacker/files/*.flf ~/.local/lib/python3.11/site-packages/pyfiglet/fonts'"
